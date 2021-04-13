@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang=”english”>
+<html lang="en">
     <head>
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
 
@@ -79,8 +79,8 @@
                 <fieldset>
                     <label for="DOE">Date of entry:</label>
 
-                    <input type="date" id="DOE" name="day of trip" value="2021-04-8" min="2021-04-8" max="2022-04-8"> <br>
-                    <label for="text">WHY?:</label><br>
+                    <input type="date" id="DOE" name="day of trip" > <br>
+                    <label for="Why">WHY?:</label><br>
                     <input type="text" id="Why" name="Why"><br>
                     
                     <input type="radio" id="Friday" name="day" value="Fr">
@@ -93,15 +93,17 @@
                     <textarea id="textF" name="textF" rows="4" cols="50"></textarea>
                     
                     <br>
-                    <label for="TypeOfDay">The type of day</label>
-                        <input list="TypeOfDay" name="TypeOfDay" id="TypeOfDay">
-                        <datalist id="TypeOfDay">
-                            <option value="Good">
-                            <option value="Bad">
-                            <option value="Alright">
-                            <option value="Okay">
-                            <option value="Terrible">
-                        </datalist><br>
+                    <br>
+                    <label for="ty">The type of day</label>
+                    <input list="tys" name="ty" id="ty">
+                    <datalist id="tys">
+                      <option value="Good">
+                      <option value="Bad">
+                      <option value="Alright">
+                      <option value="Okay">
+                      <option value="Terrible">
+                    </datalist>
+
                         <input type="submit">
                 </fieldset>   
             </form>
